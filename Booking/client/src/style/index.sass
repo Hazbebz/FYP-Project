@@ -1,0 +1,180 @@
+// Media Queries
+$s-break: 768px
+$m-break: 992px
+
+$turq: #35bcce
+
+body
+    font-family: ABeeZee, sans-serif
+    background-image: '/images/cafejpg.jpg'
+
+// Home Page
+.book-btn
+    color: white
+    font-size: 1.2rem
+    padding: 2% 8%
+    border-radius: 25px
+    background-color: #2b6772;
+    border: 2px white solid
+    font-family: ABeeZee, sans-serif
+    //when the cursor floats over the button change the colour
+    &:hover
+        color: #2b6772;
+        background-color: white !important
+        border: 2px solid black !important
+
+@media (min-width: $s-break)
+    .book-btn
+        font-size: 1.4rem
+        padding: 0.5% 5%
+
+//  Booking a table page
+
+.selected-table
+    font-size: 1.25rem
+    padding-bottom: 2%
+
+//  Dropdowns
+
+input[type=date]::-webkit-inner-spin-button
+    -webkit-appearance: none
+    display: none
+
+input[type=date]::-webkit-calendar-picker-indicator
+    -webkit-appearance: none
+    display: none
+
+//booking dropdown menu stylings
+.booking-drop
+    width: 80%
+    padding: 4% 0
+    background-color: #2b6772;
+    color: white
+    margin: 2% 0
+    font-family: "Roboto"
+    font-size: 1.1rem
+    border: none
+    border-radius: 5px
+    text-align: center
+    &:hover
+        background-color: #ffff
+        color: #2b6772;
+    &:focus
+        outline: none
+        box-shadow: none
+    &-menu
+        outline: none
+    &-item:hover
+        background-color: white
+    &-item:active
+        background-color: white
+        color: black
+
+@media (min-width: $s-break)
+    .booking-drop
+        font-size: 1.2rem
+
+// Tables Display
+
+.table-display-message
+    padding: 2% 0
+    text-align: center
+    font-size: 1.3rem
+    color: white
+
+.tables-display
+    background-color: #2b6772;
+    margin: 10% 2%
+    padding: 3% 5%
+    border-radius: 25px
+
+@media (min-width: $s-break)
+    .tables-display
+        margin: 6% 2.5%
+
+.table-key
+    padding-top: 1%
+    padding-bottom: 4.5%
+    color: white
+
+.all-tables
+    color: rgb(255, 255, 255)
+    font-size: 1.2rem
+    font-family: Roboto, sans-serif
+
+.table-container
+    margin: 0 1%
+
+.table
+    background-color: rgba(245, 246, 250, 0.4)
+    padding: 15px
+    border-radius: 25px
+    min-width: 80px
+
+.table-row
+    margin-bottom: 8px
+
+.selectable-table:hover
+    cursor: pointer
+    &-row
+        padding: 5px
+
+.full-table
+    background-color: white
+    border: solid 2px white
+    border-radius: 50%
+    padding: 1px 10px
+    margin: 3px
+
+.empty-table
+    background-color: #2b6772;
+    border: solid 2px white
+    border-radius: 50%
+    padding: 1px 10px
+    margin: 3px
+
+.table-name
+    color: rgb(255, 255, 255)
+    font-size: 0.8rem
+    padding-top: 15px
+    font-family: Roboto, sans-serif
+
+// Confirmation Screen
+.res-details-container
+    padding: 0 4%
+    padding-bottom: 5%
+
+.res-details
+    margin: 0 2%
+    margin-bottom: 5%
+
+@media (min-width: $s-break)
+    .res-details
+        margin-bottom: 0
+
+.res-input:focus
+    border-color: black
+    box-shadow: 0 0
+
+.res-error
+    color: #2b6772;
+    font-size: 1.1rem
+    padding-bottom: 3%
+
+// Confirmation Page
+.confirm-header
+    padding: 5% 0
+    padding-top: 10%
+    font-size: 1.5rem
+
+.email-subtext
+    font-size: 1.2rem
+    padding: 2%
+
+
+@media (min-width: $s-break)
+    .confirm-header
+        font-size: 2.5rem
+
+    .email-subtext
+        font-size: 1.2rem

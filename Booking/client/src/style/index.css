@@ -1,0 +1,261 @@
+/*Body*/
+body {
+  font-family: Roboto;
+  background-color: #fffbfb;
+  color:#C5C6C7;
+ 
+}
+@media (min-width: 768px) {
+  .about {
+    
+  }
+  h1{
+    font-family: Bebas Neue;
+    color: #2b6772;
+    font-size: 5.5rem;
+  }
+  
+}
+@media (min-width: 992px) {
+  .about {
+    
+  }
+  h1{
+    font-family: Bebas Neue;
+    color: #2b6772;
+    font-size: 5.5rem;
+  }
+}
+h1{
+  font-family: Bebas Neue;
+  color: #2b6772;
+  font-size: 5.5rem;
+}
+
+/*Boooking content*/
+.book-btn {
+  color: #ffff;
+  font-size: 1.2rem;
+  padding: 2% 8%;
+  border-radius: 25px;
+  background-color:  #2b6772;
+  border: 2px #2b6772 solid;
+  font-family: Bebas Neue;
+}
+.book-btn:hover {
+  color: #2b6772;
+  background-color: #ffff !important;
+}
+
+@media (min-width: 768px) {
+  .book-btn {
+    font-size: 1.4rem;
+    padding: 0.5% 5%;
+  }
+}
+
+
+/*Booking table page dropdowns*/
+.selected-table {
+  font-size: 1.25rem;
+  padding-bottom: 2%;
+}
+
+input[type=date]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.booking-drop {
+  width: 80%;
+  padding: 4% 0;
+  background-color: #C5C6C7;
+  color: #2b6772;
+  margin: 2% 0;
+  font-family: "Bebas Neue";
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.booking-drop:hover {
+  background-color: #f2f2f2;
+  color: #2b6772;
+  border: 2px black solid;
+}
+.booking-drop:focus {
+  outline: none;
+  box-shadow: none;
+}
+.booking-drop-menu {
+  outline: none;
+}
+.booking-drop-item:hover {
+  background-color: white;
+}
+.booking-drop-item:active {
+  background-color: white;
+  border: solid 2px #2b6772;
+  color: #C5C6C7;
+}
+
+@media (min-width: 768px) {
+  .booking-drop {
+    font-size: 1.2rem;
+  }
+}
+
+/*Booking table display types*/
+.t-display-message {
+  padding: 2% 0;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #2b6772;
+}
+
+.t-display {
+  background-color: #C5C6C7;
+  color: #2b6772;
+  border: 2px #2b6772 solid;
+  margin: 10% 2%;
+  padding: 3% 5%;
+  border-radius: 25px;
+}
+
+@media (min-width: 768px) {
+  .t-display {
+    margin: 6% 2.5%;
+  }
+}
+.t-key {
+  padding-top: 1%;
+  padding-bottom: 4.5%;
+  color: #2b6772;
+}
+
+.all-tables {
+  color: #2b6772;
+  font-size: 1.2rem;
+  font-family: Roboto, sans-serif;
+}
+
+.table-container {
+  margin: 0 1%;
+}
+
+.table {
+  background-color: rgba(235, 237, 243, 0.4);
+  padding: 15px;
+  border-radius: 25px;
+  min-width: 80px;
+}
+
+.table-row {
+  margin-bottom: 8px;
+}
+
+.selectable-table:hover {
+  cursor: pointer;
+}
+.selectable-table:hover-row {
+  padding: 5px;
+}
+/*Full table styling rules*/
+.full-table {
+  background-color: white;
+  border: solid 2px white;
+  border-radius: 50%;
+  padding: 1px 10px;
+  margin: 3px;
+  
+}
+/*Empty table styling rules*/
+.empty-table {
+  background-color: #2b6772;
+  border: solid 2px white;
+  border-radius: 50%;
+  padding: 1px 10px;
+  margin: 3px;
+}
+
+.table-name {
+  color: #2b6772;
+  font-size: 0.8rem;
+  padding-top: 15px;
+  font-family: Roboto, sans-serif;
+}
+
+/*Reservation details section*/
+.res-details-container {
+  padding: 0 4%;
+  padding-bottom: 5%;
+}
+
+.res-details {
+  margin: 0 2%;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 768px) {
+  .res-details {
+    margin-bottom: 0;
+  }
+}
+.res-input:focus {
+  border-color: black;
+  box-shadow: 0 0;
+}
+
+.res-error {
+  color: #2b6772;
+  font-size: 1.1rem;
+  padding-bottom: 3%;
+}
+
+/*Confirmation page*/
+.confirm-header {
+  padding: 5% 0;
+  padding-top: 10%;
+  font-size: 1.5rem;
+}
+
+.email-subtext {
+  font-size: 1.2rem;
+  padding: 2%;
+}
+
+@media (min-width: 768px) {
+    .confirm-header {
+      font-size: 2.5rem;
+      font-family: Bebas neue;
+    }
+
+    .email-subtext {
+      font-size: 1.2rem;
+    }
+
+
+
+  
+  h2{
+    font-family: Bebas Neue;
+    color: #2b6772;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  p{
+    padding: 30px;
+  }
+  .card-img{
+    padding: 5px;
+    border-radius: 5px;
+  }
+ 
+  
+ 
+}

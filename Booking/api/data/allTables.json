@@ -1,0 +1,24 @@
+{
+    "tables": [
+        {"name":"Table ${i}","capacity":5,"isAvailable":true,"location":"Side 1"},
+        {"name":"Table ${i}","capacity":7,"isAvailable":true,"location":"Side 3"},
+        {"name":"Table ${i}","capacity":3,"isAvailable":true,"location":"Side 3"},
+        {"name":"Table ${i}","capacity":2,"isAvailable":true,"location":"Side 3"},
+        {"name":"Table ${i}","capacity":4,"isAvailable":true,"location":"Side 1"},
+        {"name":"Table ${i}","capacity":4,"isAvailable":true,"location":"Side 2"},
+        {"name":"Table ${i}","capacity":5,"isAvailable":true,"location":"Side 2"},
+        {"name":"Table ${i}","capacity":5,"isAvailable":true,"location":"Side 3"},
+        {"name":"Table ${i}","capacity":2,"isAvailable":true,"location":"Side 1"},
+        {"name":"Table ${i}","capacity":4,"isAvailable":true,"location":"Side 3"},
+        {"name":"Table ${i}","capacity":6,"isAvailable":true,"location":"Side 3"},
+        {"name":"Table ${i}","capacity":6,"isAvailable":true,"location":"Side 2"},
+        {"name":"Table ${i}","capacity":7,"isAvailable":true,"location":"Side 1"},
+        {"name":"Table ${i}","capacity":3,"isAvailable":true,"location":"Side 2"},
+        {"name":"Table ${i}","capacity":5,"isAvailable":true,"location":"Side 1"},
+        {"name":"Table ${i}","capacity":2,"isAvailable":true,"location":"Side 1"},
+        {"name":"Table ${i}","capacity":4,"isAvailable":true,"location":"Side 3"},
+        {"name":"Table ${i}","capacity":6,"isAvailable":true,"location":"Side 3"},
+        {"name":"Table ${i}","capacity":2,"isAvailable":true,"location":"Side 1"},
+        {"name":"Table ${i}","capacity":2,"isAvailable":true,"location":"Side 2"}
+    ]
+}
